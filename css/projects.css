@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.post-card {
+  display: flex;
+  /* align-items: center; */
+  gap: 1rem;
+}
+.post-thumb {
+  height: 15rem;
+  width: 30%;
+  background: url(/imgs/Humaaans\ -\ 1\ Character.png) no-repeat center;
+}
+.post-content {
+  flex: 1;
+  padding: 1rem;
+}
+
+@media (max-width: 450px) {
+  .post-thumb {
+    display: none;
+  }
+}
